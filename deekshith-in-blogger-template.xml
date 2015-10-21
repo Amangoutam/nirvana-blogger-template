@@ -3351,7 +3351,7 @@ user is not using shrink to fit then we expand the header.
       </div>
       <!-- /.container -->
     </nav>
-    
+
     <div id='body-templates'>
       <!-- END Header --> 
       <div id='container'>
@@ -4516,10 +4516,10 @@ user is not using shrink to fit then we expand the header.
                 <div class='col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12'>
                     <ul class='list-inline text-center'>
                         <li>
-                            <a href='https://twitter.com/adeekshith'>
+                            <a href='https://www.linkedin.com/in/adeekshith'>
                                 <span class='fa-stack fa-lg'>
                                     <i class='fa fa-circle fa-stack-2x'/>
-                                    <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
+                                    <i class='fa fa-linkedin fa-stack-1x fa-inverse'/>
                                 </span>
                             </a>
                         </li>
@@ -4528,6 +4528,14 @@ user is not using shrink to fit then we expand the header.
                                 <span class='fa-stack fa-lg'>
                                     <i class='fa fa-circle fa-stack-2x'/>
                                     <i class='fa fa-facebook fa-stack-1x fa-inverse'/>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://twitter.com/adeekshith'>
+                                <span class='fa-stack fa-lg'>
+                                    <i class='fa fa-circle fa-stack-2x'/>
+                                    <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
                                 </span>
                             </a>
                         </li>
