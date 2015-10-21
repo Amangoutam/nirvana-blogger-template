@@ -3231,7 +3231,6 @@ height: auto;
       var maxresults = 3;
       var relatedpoststitle = " Related Posts";
       var norelatedpoststitle = " No related posts"
-      eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('b m(3,5){7(3.a("<")!=-1){4 s=3.y("<");x(4 i=0;i<s.8;i++){7(s[i].a(">")!=-1){s[i]=s[i].t(s[i].a(">")+1,s[i].8)}}3=s.z("")}5=(5<3.8-1)?5:3.8-2;A(3.C(5-1)!=\' \'&&3.a(\' \',5)!=-1)5++;3=3.t(0,5-1);w 3+\'...\'}$(r).D(b(){4 d="f://g.l.p";4 9="f://g.v.B/G/";7(d!="f://g.l.p"){e.c=9}7($("#u").8>0){4 j=$("#u").N("E");7(j!=d){e.c=9}}P{e.c=9}});b Q(k,O){4 6=r.L(k);4 M="";4 q=6.F("q");4 n=H;4 h=\'<6 I="K-J">\'+m(6.o,n)+\'</6>\';6.o=h}',53,53,'|||strx|var|chop|div|if|length|redirPage|indexOf|function|location|mainpage|window|http|www|summary||ourhomwpage|pID|crictime|removeHtmlTag|summ|innerHTML|me|img|document||substring|Mandatory|skyafar|return|for|split|join|while|com|charAt|ready|href|getElementsByTagName|weblogtemplates|summary_noimg|class|subtitle|post|getElementById|imgtag|attr|url|else|createSummaryAndThumb'.split('|'),0,{}))
       eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('6 7=g f();6 2=0;6 v=g f();6 8=g f();F E(h){u(6 i=0;i<h.x.4.l;i++){6 4=h.x.4[i];7[2]=4.D.$t;C{9(4.o$m.p){r=4.o$m.p;8[2]=r.H("/K-c/","/J-I-c/")}}L(B){s=4.z.$t;a=s.e("<A");b=s.e("y=\\"",a);c=s.e("\\"",b+5);d=s.G(b+5,c-b-5);9((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){8[2]=d}n{9(M(q)!==\'11\')8[2]=q;n 8[2]="10://3.12.Y.Z/-R/Q/P/N/O/S.T"}}9(7[2].l>w)7[2]=7[2].X(0,w)+"...";u(6 k=0;k<4.j.l;k++){9(4.j[k].W==\'V\'){v[2]=4.j[k].U;2++}}}}',62,65,'||relatedTitlesNum||entry||var|relatedTitles|thumburl|if|||||indexOf|Array|new|json||link||length|thumbnail|else|media|url|defaultnoimage|tt|||for|relatedUrls|35|feed|src|content|img|error|try|title|related_results_labels_thumbs|function|substr|replace|h200|s300|s72|catch|typeof|092MmUHSFQ0|s1600|AAAAAAAACl8|UF91FE7rxfI|PpjfsStySz0|no_image|jpg|href|alternate|rel|substring|blogspot|com|http|undefined|bp'.split('|'),0,{}))
       eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('l D(){5 9=p m(0);5 d=p m(0);5 f=p m(0);q(5 i=0;i<4.2;i++){8(!u(9,4[i])){9.2+=1;9[9.2-1]=4[i];d.2+=1;f.2+=1;d[d.2-1]=3[i];f[f.2-1]=b[i]}}3=d;4=9;b=f}l u(a,e){q(5 j=0;j<a.2;j++)8(a[j]==e)x B;x C}l E(t){5 n;8(F(s)!==\'G\')n=s;o n="#H";q(5 i=0;i<4.2;i++){8((4[i]==t)||(!3[i])){4.c(i,1);3.c(i,1);b.c(i,1);i--}}5 r=y.A((3.2-1)*y.z());5 i=0;8(3.2==0){6.7(\'<h>\'+K+\'</h>\')};8(3.2>0)6.7(\'<h>\'+U+\'</h>\');6.7(\'<g w="T: W;"/>\');V(i<3.2&&i<I&&i<Z){6.7(\'<a w="Y-X:S;Q:L;\');8(i!=0)6.7(\'"\');o 6.7(\'"\');6.7(\' R="\'+4[r]+\'"><k v="k-J-M k-N" P="\'+b[r]+\'"/><g v="O">\'+3[r]+\'</g></a>\');i++;8(r<3.2-1){r++}o{r=0}}6.7(\'</g>\');4.c(0,4.2);b.c(0,b.2);3.c(0,3.2)}',62,62,'||length|relatedTitles|relatedUrls|var|document|write|if|tmp||thumburl|splice|tmp2||tmp3|div|h3|||img|function|Array|splitbarcolor|else|new|for||splittercolor|current|contains_thumbs|class|style|return|Math|random|floor|true|false|removeRelatedDuplicates|printRelatedLabels|typeof|undefined|DDDDDD|20|home|norelatedpoststitle|left|thumb|responsive|imgpost|src|float|href|none|clear|relatedpoststitle|while|both|decoration|text|maxresults'.split('|'),0,{}))
       //]]>
@@ -3251,7 +3250,7 @@ height: auto;
             <span class='icon-bar'/>
           </button>
           <b:section class='' id='blog-title' maxwidgets='1' showaddelement='yes' title='My Favorite Things'>
-            <b:widget id='Header1' locked='true' title='Clean Blogger (Header)' type='Header'>
+            <b:widget id='Header1' locked='true' title='Deek Is Geek (Header)' type='Header'>
               <b:includable id='main'>
                 <b:if cond='data:useImage'>
                   <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
@@ -3352,25 +3351,25 @@ user is not using shrink to fit then we expand the header.
       </div>
       <!-- /.container -->
     </nav>
-	<b:if cond='data:blog.url == data:blog.homepageUrl'>
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
     <header class='intro-header'>
       <div class='container'>
         <div class='row'>
           <div class='col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12'>
             <div class='site-heading'>
               <h1>
-                Clean Blogger
+                deekshith.in
               </h1>
               <hr class='small'/>
               <span class='subheading'>
-                An awesome Clean Blogger Template
+                Thoughts, ideas, projects and opinions by Deekshith Allamaneni
               </span>
             </div>
           </div>
         </div>
       </div>
     </header>
-	</b:if>
+  </b:if>
     <div id='body-templates'>
       <!-- END Header --> 
       <div id='container'>
@@ -3431,9 +3430,9 @@ user is not using shrink to fit then we expand the header.
                         <data:adEnd/>
                       </div>
                       <!-- navigation -->
-						<b:if cond='data:blog.pageType == &quot;index&quot;'>
+            <b:if cond='data:blog.pageType == &quot;index&quot;'>
                       <b:include name='nextprev'/>
-						</b:if>
+            </b:if>
                       <!-- feed links -->
                       <b:include name='feedLinks'/>
                       <b:else/>
@@ -4002,7 +4001,7 @@ user is not using shrink to fit then we expand the header.
                             </script>
                           </div>
                         </div>
-						<div class='post-header-home post-meta'>
+            <div class='post-header-home post-meta'>
                           <span class='post-author vcard'>
                             <b:if cond='data:top.showAuthor'>
                               Posted by <i class='fa fa-user'/>
@@ -4578,7 +4577,7 @@ user is not using shrink to fit then we expand the header.
           </div>
         </div>
       </div>
-	  <footer class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+    <footer class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12'>
@@ -4599,7 +4598,7 @@ user is not using shrink to fit then we expand the header.
                                 </span>
                             </a>
                         </li>
-						<li>
+            <li>
                             <a href='http://www.pinterest.com/weblogtemplates/'>
                                 <span class='fa-stack fa-lg'>
                                     <i class='fa fa-circle fa-stack-2x'/>
@@ -4617,11 +4616,11 @@ user is not using shrink to fit then we expand the header.
                         </li>
                     </ul>
                     <p class='copyright text-muted'>2015 . Powered by <a href='http://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
-          . Sponsored By 
-                <a href='http://www.crictime.me' id='Mandatory' rel='nofollow' title='Crictime Live Cricket'>
-                  Crictime Live Cricket
+          . CC 
+                <a href='#' id='Mandatory' rel='nofollow' title='Deekshith Allamaneni'>
+                  Deekshith Allamaneni
                 </a>
-				</p>
+        </p>
                 </div>
             </div>
         </div>
