@@ -3351,25 +3351,7 @@ user is not using shrink to fit then we expand the header.
       </div>
       <!-- /.container -->
     </nav>
-  <b:if cond='data:blog.url == data:blog.homepageUrl'>
-    <header class='intro-header'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12'>
-            <div class='site-heading'>
-              <h1>
-                deekshith.in
-              </h1>
-              <hr class='small'/>
-              <span class='subheading'>
-                Thoughts, ideas, projects and opinions by Deekshith Allamaneni
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-  </b:if>
+    
     <div id='body-templates'>
       <!-- END Header --> 
       <div id='container'>
