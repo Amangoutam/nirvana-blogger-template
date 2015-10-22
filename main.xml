@@ -2408,6 +2408,18 @@ margin-right:0
 background-color:#f8f8f8;
 border-color:#e7e7e7
 }
+.btn-def{
+  width:16px;height:17px;
+  background:url(http://3.bp.blogspot.com/-F6JS0gzLxag/UwI54vaUTlI/AAAAAAAAATE/EEQ-eSyg-yc/s1600/search.png) no-repeat;
+  display:inline-block;
+  vertical-align:middle;
+  zoom:1;text-shadow:none;
+  color:transparent;
+  border:none;
+  background-color:transparent;
+  z-index:671;
+  margin-left:-30px
+}
 .navbar-default .navbar-brand {
 color:#777
 }
@@ -3256,8 +3268,8 @@ height: auto;
             <span class='icon-bar'/>
             <span class='icon-bar'/>
           </button>
-          <b:section class='' id='blog-title' maxwidgets='1' showaddelement='yes' title='My Favorite Things'>
-            <b:widget id='Header1' locked='true' title='deekshith.in (Header)' type='Header'>
+          <b:section class='' id='blog-title' maxwidgets='1' showaddelement='yes' title='Thoughts, ideas, projects and opinions by DeekshithAllamaneni'>
+            <b:widget id='Header1' locked='true' title='deekshith`s blog (Header)' type='Header'>
               <b:includable id='main'>
                 <b:if cond='data:useImage'>
                   <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
@@ -3328,6 +3340,16 @@ user is not using shrink to fit then we expand the header.
               </b:includable>
             </b:widget>
           </b:section>
+        </div>
+        <div class="col-md-4 col-md-offset-3">
+            <form action="" class="search-form">
+                <div class="form-group has-feedback">
+                <label for="search" class="sr-only">Search</label>
+                <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </input>
+              </div>
+            </form>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
