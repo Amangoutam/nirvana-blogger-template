@@ -3325,16 +3325,20 @@ user is not using shrink to fit then we expand the header.
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
           <ul class='nav navbar-nav navbar-right'>
+            <!-- Start Home Icon | Navbar Menu-->
             <li>
               <a href='http://deekshith.in'>
                 <i class='fa fa-home fa-fw fa-inverse'/>
               </a>
             </li>
+            <!-- End Home Icon | Navbar Menu-->
+            <!-- Start Contact | Navbar Menu-->
             <li>
               <a href='http://www.deekshith.in/p/contact.html'>
                 Contact
               </a>
             </li>
+            <!-- End Contact | Navbar Menu-->
           </ul>
         </div>
         <!-- /.navbar-collapse -->
