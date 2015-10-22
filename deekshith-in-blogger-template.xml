@@ -4533,6 +4533,14 @@ user is not using shrink to fit then we expand the header.
                             </a>
                         </li>
                         <li>
+                            <a href='https://github.com/adeekshith/'>
+                                <span class='fa-stack fa-lg'>
+                                    <i class='fa fa-circle fa-stack-2x'/>
+                                    <i class='fa fa-github fa-stack-1x fa-inverse'/>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
                             <a href='https://twitter.com/adeekshith'>
                                 <span class='fa-stack fa-lg'>
                                     <i class='fa fa-circle fa-stack-2x'/>
