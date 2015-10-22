@@ -3326,22 +3326,12 @@ user is not using shrink to fit then we expand the header.
         <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
           <ul class='nav navbar-nav navbar-right'>
             <li>
-              <a href='#'>
-                Work
+              <a href='http://deekshith.in'>
+                <i class='fa fa-home fa-fw fa-inverse'/>
               </a>
             </li>
             <li>
-              <a href='#'>
-                About
-              </a>
-            </li>
-            <li>
-              <a href='#'>
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href='#'>
+              <a href='http://www.deekshith.in/p/contact.html'>
                 Contact
               </a>
             </li>
