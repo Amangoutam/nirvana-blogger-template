@@ -4541,14 +4541,6 @@ user is not using shrink to fit then we expand the header.
                             </a>
                         </li>
                         <li>
-                            <a href='https://twitter.com/adeekshith'>
-                                <span class='fa-stack fa-lg'>
-                                    <i class='fa fa-circle fa-stack-2x'/>
-                                    <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
                             <a href='https://plus.google.com/+DeekshithAllamaneni1/'>
                                 <span class='fa-stack fa-lg'>
                                     <i class='fa fa-circle fa-stack-2x'/>
@@ -4558,8 +4550,8 @@ user is not using shrink to fit then we expand the header.
                         </li>
                     </ul>
                     <p class='copyright text-muted'>2015 . Powered by <a href='http://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
-          . CC 
-                <a href='#' id='Mandatory' rel='nofollow' title='Deekshith Allamaneni'>
+          . <br/>With ♥ by 
+                <a href='http://www.deekshith.in/' id='Mandatory' rel='nofollow' title='Deekshith Allamaneni'>
                   Deekshith Allamaneni
                 </a>
         </p>
