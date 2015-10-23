@@ -1909,6 +1909,11 @@ right:0
 left:0;
 right:auto
 }
+/* Start Deekshith Custom CSS*/
+.dropdown-search-menu {
+    width: 500px
+}
+/* End Deekshith Custom CSS*/
 .dropdown-header {
 display:block;
 padding:3px 20px;
@@ -3346,6 +3351,17 @@ user is not using shrink to fit then we expand the header.
               </a>
             </li>
             <!-- End Contact | Navbar Menu-->
+            <li class='dropdown'>
+              <a class='dropdown-toggle' data-toggle='dropdown' href='#'><span class='fa fa-search fa-fw'/> <span class='caret'/></a>
+              <ul class='dropdown-menu dropdown-search-menu'>
+                <li>
+                  <form action='/search' id='search-form' method='get' style='margin-top:10px;' class="navbar-form" role="search">
+                    <input id='search-box' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;;' type="text" class="form-control" style='width:85%;' placeholder="Search"/>
+                    <button class='btn btn-default' type='submit'><span class='fa fa-search fa-fw' style='width:15%;' /></button>
+                  </form>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
