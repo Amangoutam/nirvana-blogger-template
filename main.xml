@@ -2678,7 +2678,7 @@ color:#999
 color:#fff
 }
 .navbar {
-text-transform:uppercase;
+/* text-transform:uppercase; DK Disabled */
 margin-bottom:0
 }
 .navbar-inverse {
@@ -2922,7 +2922,7 @@ font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 font-weight:800
 }
 .navbar-custom .nav li a {
-text-transform:uppercase;
+/* text-transform:uppercase;  DK Disabled */
 font-size:12px;
 font-weight:800;
 letter-spacing:1px
@@ -3336,7 +3336,7 @@ user is not using shrink to fit then we expand the header.
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
-          <ul class='nav navbar-nav navbar-right'>
+          <ul class='nav navbar-nav navbar-right' style='font-size:14px'>
             <!-- Start Home Icon | Navbar Menu-->
             <li>
               <a href='http://deekshith.in'>
