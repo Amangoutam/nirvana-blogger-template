@@ -3355,7 +3355,7 @@ user is not using shrink to fit then we expand the header.
               <a class='dropdown-toggle' data-toggle='dropdown' href='#'><span class='fa fa-search fa-fw'/></a>
               <ul class='dropdown-menu dropdown-search-menu'>
                 <li>
-                  <form action='/search' id='search-form' method='get' style='margin-top:2px; margin-bottom:2px; margin-right:2px; margin-left: 2px padding-top: 0px; padding-bottom: 0px; padding-right: 0px;' class="navbar-form" role="search">
+                  <form action='/search' id='search-form' method='get' style='margin-top:0px; margin-bottom:0px; margin-right:2px; margin-left: 2px padding-top: 0px; padding-bottom: 0px; padding-right: 0px;' class="navbar-form" role="search">
                     <input id='search-box' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;;' type="text" class="form-control" style='width:100%;' placeholder="Search"/>
                   </form>
                 </li>
@@ -4000,6 +4000,7 @@ user is not using shrink to fit then we expand the header.
                           </div>
                         </div>
             <div class='post-header-home post-meta'>
+                          <!-- Enable to show author stamp above posts on home page
                           <span class='post-author vcard'>
                             <b:if cond='data:top.showAuthor'>
                               Posted by <i class='fa fa-user'/>
@@ -4008,6 +4009,7 @@ user is not using shrink to fit then we expand the header.
                               </span>
                             </b:if>
                           </span>
+                        -->
                           <span class='post-timestamp'>
                             <b:if cond='data:top.showTimestamp'>
                               <i class='fa fa-clock-o'/>
