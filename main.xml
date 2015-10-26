@@ -202,7 +202,9 @@ height:32px
 <!-- Loading Bootstrap 2.2.1 CSS -->
 <link href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet" integrity="sha256-bWbLY+WTVRVCnczvjqXCmCGyfcKQHKioRTKW1WB+y54= sha512-FLiZmTh2haC9E+Vuprmw3RruGZH0HmPn3rJJyQKym7RFx6kiZKgnVuYJDM12mbJ6zutGR679qV0UAkbnGjIfvQ==" crossorigin="anonymous" />
 
+<!-- Favicon. This works but it is recommended to change favicon in blogger.
 <link href='http://2.bp.blogspot.com/-b9JorJ0mcRM/To-94RtpQsI/AAAAAAAACWY/iAlb6syGo0M/s1600/pg_icon.png' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+-->
 </head>
 <body>
 <div class='navbar' style='position: static;'>
@@ -256,6 +258,7 @@ height:32px
             </div> 
  
 <!--end top-page-menu-->
+<!-- Top ad section. Enable if required.
 <header id='mainhead'> 
 <div class='container clearfix' id='header-wrapper'>
 <div id='top-ad'> 
@@ -263,6 +266,7 @@ height:32px
 </div>
 </div>
 </header>
+-->
 <!-- END Header --> 
  
 <div class='container' id='container'> 
