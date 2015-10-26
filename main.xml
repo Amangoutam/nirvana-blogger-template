@@ -1477,7 +1477,7 @@ head.appendChild(script);
 <footer>
   <div class="container">
     <div class='pull-left'>
-      With ♥ by <a expr:href='data:blog.homepageUrl'><strong><data:blog.title/></strong></a>.
+      With ❤ by <a expr:href='data:blog.homepageUrl'><strong><data:blog.title/></strong></a>.
     </div>
     <div class='pull-right'>
       Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
