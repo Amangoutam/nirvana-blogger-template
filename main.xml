@@ -196,16 +196,6 @@ background: #fff url(http://3.bp.blogspot.com/-UMSMHaOBzQg/To2XKFseUSI/AAAAAAAAC
 width:32px;
 height:32px
 }
-p.footer-link{
-clear: both;
-text-align: center;
-font-size: 11px;
-padding: 12px;
-overflow: hidden;
-color: #F9F9F9;
-background: #232627;
-line-height: 18px;
-}
 .post-header{padding:10px 0;}
 ]]></b:skin>
 
@@ -1478,8 +1468,17 @@ head.appendChild(script);
  
 </div> 
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=1.7.2' type='text/javascript'/>
- <script src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js'/>
-<p class='footer-link'> With ♥ by <a expr:href='data:blog.homepageUrl'><strong><data:blog.title/></strong></a>. Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a></p>
+<script src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js'/>
 </div><!-- END Footer --> 
+<footer>
+  <div class="container">
+    <div class='pull-left'>
+      With ♥ by <a expr:href='data:blog.homepageUrl'><strong><data:blog.title/></strong></a>.
+    </div>
+    <div class='pull-right'>
+      Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
+    </div>
+  </div>
+</footer>
 </body> 
 </html>
