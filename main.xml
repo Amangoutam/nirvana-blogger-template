@@ -218,7 +218,7 @@ height:32px
                     <span class='icon-bar'/>
                   </a>
                   <a class='brand' href='/'>
-                    deekshith.in
+                    <strong>deekshith.in</strong>
                   </a>
                   <div class='nav-collapse collapse navbar-inverse-collapse'>
                     <ul class='nav'>
@@ -1482,7 +1482,7 @@ head.appendChild(script);
       With ❤ by <a expr:href='data:blog.homepageUrl'>Deekshith</a>.
     </div>
     <div class='pull-right'>
-      Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
+      Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a> and <a href='https://github.com/adeekshith/nirvana-blogger-template' rel='nofollow' title='Blogger'>Nirvana</a>
     </div>
   </div>
 </footer>
