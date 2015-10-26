@@ -11,6 +11,8 @@
 <title><data:blog.pageName/></title>
 </b:if>
     <b:include data='blog' name='all-head-content'/>
+<!-- Included Font awesome icons -->
+<link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'/>
     <b:skin><![CDATA[/*
@@ -220,37 +222,25 @@ height:32px
                   </a>
                   <div class='nav-collapse collapse navbar-inverse-collapse'>
                     <ul class='nav'>
-                      <li><a href='#' rel='tooltip'>Link</a></li>
-                      <li><a href='#'>Link</a></li>
-                      <li class='dropdown'>
-                        <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Dropdown <b class='caret'/></a>
-                        <ul class='dropdown-menu'>
-                          <li><a href='#'>Action</a></li>
-                          <li><a href='#'>Another action</a></li>
-                          <li><a href='#'>Something else here</a></li>
-                          <li class='divider'/>
-                          <li class='nav-header'>Nav header</li>
-                          <li><a href='#'>Separated link</a></li>
-                          <li><a href='#'>One more separated link</a></li>
-                        </ul>
-                      </li>
+                      <li><a href='/' rel='tooltip'>Home</a></li>
+                      <li><a href='/p/contact.html'>Contact</a></li>
                     </ul>
                     <form action='/search' class='navbar-search pull-left'>
                       <input class='search-query span2' name='q' placeholder='Search' type='text'/>
                     </form>
                     <ul class='nav pull-right'>
-                      <li><a href='#'>Link</a></li>
-                      <li class='divider-vertical'/>
-                      <li class='dropdown'>
-                        <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Dropdown <b class='caret'/></a>
-                        <ul class='dropdown-menu'>
-                          <li><a href='#'>Action</a></li>
-                          <li><a href='#'>Another action</a></li>
-                          <li><a href='#'>Something else here</a></li>
-                          <li class='divider'/>
-                          <li><a href='#'>Separated link</a></li>
-                        </ul>
+                      <li>
+                        <a href="https://www.facebook.com/adeekshith">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
                       </li>
+                      <!-- If you want to add more items
+                      <li class='divider-vertical'/>
+                      <li><a href='#'>Link</a></li>
+                      -->
                     </ul>
                   </div><!-- /.nav-collapse -->
                 </div>
