@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:fb='https://www.facebook.com/2008/fbml'>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 </b:if>
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
@@ -13,6 +14,15 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'/>
     <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+-----------------------------------------------
+Name           : Nirvana Blogger Template
+Author         : Deekshith Allamaneni
+Author  URL    : http://www.deekshith.in
+Date           : 2015
+-----------------------------------------------
+Forked from:
 -----------------------------------------------
 Blogger Template Style
 -----------------------------------------------
@@ -4807,7 +4817,9 @@ a.badge:hover {
                     <span class='icon-bar'/>
                     <span class='icon-bar'/>
                   </a>
-                  <a class='brand' href='#'>Home</a>
+                  <a class='brand' href='/'>
+                    deekshith.in
+                  </a>
                   <div class='nav-collapse collapse navbar-inverse-collapse'>
                     <ul class='nav'>
                       <li><a href='#' rel='tooltip'>Link</a></li>
@@ -4850,69 +4862,6 @@ a.badge:hover {
 <!--end top-page-menu-->
 <header id='mainhead'> 
 <div class='container clearfix' id='header-wrapper'>
-<div id='header'> 
-<b:section class='header' id='blog-title' maxwidgets='1' showaddelement='no'>
-   <b:widget id='Header1' locked='true' title='Twitter bootstrap blogger template (Header)' type='Header'>
-     <b:includable id='main'>
-
-  <b:if cond='data:useImage'>
-    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
-      <!--
-      Show image as background to text. You can't really calculate the width
-      reliably in JS because margins are not taken into account by any of
-      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
-      width if the user is using shrink to fit.
-      This results in a margin-width's worth of pixels being cropped. If the
-      user is not using shrink to fit then we expand the header.
-      -->
-      <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                      + &quot;background-position: &quot;                      + data:backgroundPositionStyleStr + &quot;; &quot;                      + data:widthStyleStr                      + &quot;min-height: &quot; + data:height + &quot;px;&quot;                      + &quot;_height: &quot; + data:height + &quot;px;&quot;                      + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
-        <div class='titlewrapper' style='background: transparent'>
-          <h1 class='title' style='background: transparent; border-width: 0px'>
-            <b:include name='title'/>
-          </h1>
-        </div>
-        <b:include name='description'/>
-      </div>
-    <b:else/>
-      <!--Show the image only-->
-      <div id='header-inner'>
-        <a expr:href='data:blog.homepageUrl' style='display: block'>
-          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
-        </a>
-        <!--Show the description-->
-        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
-          <b:include name='description'/>
-        </b:if>
-      </div>
-    </b:if>
-  <b:else/>
-    <!--No header image -->
-    <div id='header-inner'>
-      <div class='titlewrapper'>
-        <h1 class='title'>
-          <b:include name='title'/>
-        </h1>
-      </div>
-      <b:include name='description'/>
-    </div>
-  </b:if>
-</b:includable>
-     <b:includable id='description'>
-  <div class='descriptionwrapper'>
-    <p class='description'><span><data:description/></span></p>
-  </div>
-</b:includable>
-     <b:includable id='title'>
-  <b:if cond='data:blog.url == data:blog.homepageUrl'>
-    <data:title/>
-  <b:else/>
-    <a expr:href='data:blog.homepageUrl'><data:title/></a>
-  </b:if>
-</b:includable>
-   </b:widget>
- </b:section>
-</div>
-
 <div id='top-ad'> 
 <b:section class='top-ad' id='top-ad' showaddelement='no'/> 
 </div>
