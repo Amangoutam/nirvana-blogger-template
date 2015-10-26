@@ -1479,7 +1479,7 @@ head.appendChild(script);
 </div> 
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=1.7.2' type='text/javascript'/>
  <script src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js'/>
-<p class='footer-link'> &#169; <a expr:href='data:blog.homepageUrl'><strong><data:blog.title/></strong></a> 2013 . Powered by <a href='http://bootstrap.slugs.in' rel='nofollow' title='Bootstrap Blogger Templates'>Bootstrap Blogger Templates</a></p>
+<p class='footer-link'> With ♥ by <a expr:href='data:blog.homepageUrl'><strong><data:blog.title/></strong></a>. Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a></p>
 </div><!-- END Footer --> 
 </body> 
 </html>
