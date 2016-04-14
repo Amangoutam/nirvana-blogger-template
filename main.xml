@@ -22,7 +22,7 @@ Blogger Template Style
 Name           : Nirvana Blogger Template
 Author         : Deekshith Allamaneni
 Author  URL    : http://www.deekshith.in
-Date           : 2015
+Date           : 2016
 -----------------------------------------------
 Forked from:
 -----------------------------------------------
@@ -209,6 +209,7 @@ height:32px
 -->
 </head>
 <body>
+  <div class='container'> 
 <div class='navbar' style='position: static;'>
               <div class='navbar-inner'>
                 <div class='container'>
@@ -258,6 +259,7 @@ height:32px
                 </div>
               </div><!-- /navbar-inner -->
             </div> 
+    </div>
  
 <!--end top-page-menu-->
 <!-- Top ad section. Enable if required.
