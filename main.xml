@@ -232,17 +232,17 @@ height:32px
                     <div class='nav pull-right'>
                         <a href='https://twitter.com/adeekshith'>
                             <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x'/>
+                                <i class='fa fa-circle fa-stack-2x' style='color:#1DA1F2;'/>
                                 <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
                             </span>
                         </a>
                         <a href='https://github.com/adeekshith/'>
                             <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x'/>
+                                <i class='fa fa-circle fa-stack-2x' style='color:#333333;'/>
                                 <i class='fa fa-github fa-stack-1x fa-inverse'/>
                             </span>
                         </a>
-                        <a href='https://www.linkedin.com/in/adeekshith'>
+                        <a href='https://www.linkedin.com/in/adeekshith' style='color:#0677B5;'>
                             <span class='fa-stack fa-sm'>
                                 <i class='fa fa-circle fa-stack-2x'/>
                                 <i class='fa fa-linkedin fa-stack-1x fa-inverse'/>
@@ -250,7 +250,7 @@ height:32px
                         </a>
                         <a href='https://www.facebook.com/adeekshith'>
                             <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x'/>
+                                <i class='fa fa-circle fa-stack-2x' style='color:#3A5795'/>
                                 <i class='fa fa-facebook fa-stack-1x fa-inverse'/>
                             </span>
                         </a>
