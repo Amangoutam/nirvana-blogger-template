@@ -769,7 +769,7 @@ height:32px
         <b:if cond='data:post.labels'>
           <data:postLabelsLabel/>
           <b:loop values='data:post.labels' var='label'>
-            <a class='label label-success' expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+            <a class='label label-default' expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
           </b:loop>
         </b:if>
       </span> 
@@ -892,7 +892,7 @@ height:32px
         <b:if cond='data:post.labels'>
           <data:postLabelsLabel/>
           <b:loop values='data:post.labels' var='label'>
-            <a class='label label-success' expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+            <a class='label label-default' expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
           </b:loop>
         </b:if>
       </span> 
