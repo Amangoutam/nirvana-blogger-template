@@ -199,6 +199,9 @@ width:32px;
 height:32px
 }
 .post-header{padding:10px 0;}
+
+body { padding-top: 70px; } /* Body Padding to compensate for navbar-fixed-top */
+
 ]]></b:skin>
 
 <!-- Loading Bootstrap 3.3.6 CSS -->
