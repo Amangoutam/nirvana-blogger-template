@@ -213,7 +213,7 @@ height:32px
 <div class='navbar' style='position: static;'>
               <div class='navbar-inner'>
                 <div class='container'>
-                  <a class='btn btn-navbar' data-target='.navbar-inverse-collapse' data-toggle='collapse'>
+                  <a class='btn navbar-btn' data-target='.navbar-inverse-collapse' data-toggle='collapse'>
                     <span class='icon-bar'/>
                     <span class='icon-bar'/>
                     <span class='icon-bar'/>
