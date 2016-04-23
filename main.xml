@@ -214,9 +214,9 @@ height:32px
               <div class='navbar-inner'>
                 <div class='container'>
                   <a class='btn navbar-btn' data-target='.navbar-inverse-collapse' data-toggle='collapse'>
-                    <span class='.glyphicon .glyphicon-bar'/>
-                    <span class='.glyphicon .glyphicon-bar'/>
-                    <span class='.glyphicon .glyphicon-bar'/>
+                    <span class='glyphicon glyphicon-bar'/>
+                    <span class='glyphicon glyphicon-bar'/>
+                    <span class='glyphicon glyphicon-bar'/>
                   </a>
                   <a class='navbar-brand' href='/'>
                     <strong>deekshith.in</strong>
@@ -927,7 +927,7 @@ height:32px
         <b:if cond='data:post.emailPostUrl'>
           <span class='item-action'>
           <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
-              <img alt='' class='.glyphicon .glyphicon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+              <img alt='' class='glyphicon glyphicon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
           </a>
           </span>
         </b:if>
@@ -942,7 +942,7 @@ height:32px
   <b:if cond='data:post.editUrl'>
     <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-        <img alt='' class='.glyphicon .glyphicon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+        <img alt='' class='glyphicon glyphicon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
       </a>
     </span>
   </b:if>
