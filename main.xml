@@ -221,7 +221,7 @@ height:32px
                   <a class='navbar-brand' href='/'>
                     <strong>deekshith.in</strong>
                   </a>
-                  <div class='nav-collapse collapse navbar-inverse-collapse'>
+                  <div class='navbar-collapse collapse navbar-inverse-collapse'>
                     <ul class='nav'>
                       <li><a href='/' rel='tooltip'>Home</a></li>
                       <li><a href='/p/contact.html'>Contact</a></li>
@@ -255,7 +255,7 @@ height:32px
                             </span>
                         </a>
                     </div>
-                  </div><!-- /.nav-collapse -->
+                  </div><!-- /.navbar-collapse -->
                 </div>
               </div><!-- /navbar-inner -->
             </div> 
