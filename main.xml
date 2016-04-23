@@ -227,7 +227,7 @@ height:32px
                       <li><a href='/p/contact.html'>Contact</a></li>
                     </ul>
                     <form action='/search' class='navbar-search pull-left'>
-                      <input class='search-query span2' name='q' placeholder='Search' type='text'/>
+                      <input class='search-query col-md-2' name='q' placeholder='Search' type='text'/>
                     </form>
                     <div class='nav pull-right'>
                         <a href='https://twitter.com/adeekshith'>
@@ -275,7 +275,7 @@ height:32px
  
 <div class='container' id='container'> 
 <div class='row'> 
-<div class='span8 clearfix'> 
+<div class='col-md-8 clearfix'> 
 
 <b:section class='main' id='main' showaddelement='no'>
    <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
@@ -1213,7 +1213,7 @@ height:32px
 <!-- END Content --> 
 
 
-<div class='span4'> 
+<div class='col-md-4'> 
 <div class='sidebox'> 
 <b:section class='sidebar' id='sidebar' preferred='yes'>
    <b:widget id='HTML2' locked='false' title='Join our Email List' type='HTML'>
@@ -1457,19 +1457,19 @@ head.appendChild(script);
 <div id='footer'> 
 <div class='container'>
 <div class='row'>
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar1' preferred='yes'/>
 </div>
 
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar2' preferred='yes'/>
 </div>
 
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar3' preferred='yes'/>
 </div>
 
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar4' preferred='yes'/>
 </div>
 </div>
