@@ -209,58 +209,67 @@ height:32px
 -->
 </head>
 <body>
-  <div class='container'> 
-<div class='navbar' style='position: static;'>
-              <div class='navbar-inner'>
-                <div class='container'>
-                  <a class='btn btn-default navbar-btn' data-target='.navbar-inverse-collapse' data-toggle='collapse'>
-                    <span class='glyphicon glyphicon-bar'/>
-                    <span class='glyphicon glyphicon-bar'/>
-                    <span class='glyphicon glyphicon-bar'/>
-                  </a>
-                  <a class='navbar-brand' href='/'>
-                    <strong>deekshith.in</strong>
-                  </a>
-                  <div class='navbar-collapse collapse navbar-inverse-collapse'>
-                    <ul class='nav'>
-                      <li><a href='/' rel='tooltip'>Home</a></li>
-                      <li><a href='/p/contact.html'>Contact</a></li>
-                    </ul>
-                    <form action='/search' class='navbar-search pull-left'>
-                      <input class='search-query col-md-2' name='q' placeholder='Search' type='text'/>
-                    </form>
-                    <div class='nav pull-right'>
-                        <a href='https://twitter.com/adeekshith'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x' style='color:#1DA1F2;'/>
-                                <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                        <a href='https://github.com/adeekshith/'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x' style='color:#333333;'/>
-                                <i class='fa fa-github fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                        <a href='https://www.linkedin.com/in/adeekshith' style='color:#0677B5;'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x'/>
-                                <i class='fa fa-linkedin fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                        <a href='https://www.facebook.com/adeekshith'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x' style='color:#3A5795'/>
-                                <i class='fa fa-facebook fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                    </div>
-                  </div><!-- /.navbar-collapse -->
-                </div>
-              </div><!-- /navbar-inner -->
-            </div> 
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://deekshith.in/">
+                deekshith.in
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="http://www.deekshith.in/">Home</a></li>
+                <li><a href="http://www.deekshith.in/p/contact.html">Contact</a></li>
+            </ul>
+            <form action='/search' class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input class='form-control' name='q' placeholder='Search' type='text'/>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href='https://twitter.com/adeekshith'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x' style='color:#1DA1F2;'/>
+                        <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+              </li>
+              <li>
+                <a href='https://github.com/adeekshith/'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x' style='color:#333333;'/>
+                        <i class='fa fa-github fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.linkedin.com/in/adeekshith' style='color:#0677B5;'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x'/>
+                        <i class='fa fa-linkedin fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.facebook.com/adeekshith'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x' style='color:#3A5795'/>
+                        <i class='fa fa-facebook fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+              </li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
- 
+</div>
+
 <!--end top-page-menu-->
 <!-- Top ad section. Enable if required.
 <header id='mainhead'> 
