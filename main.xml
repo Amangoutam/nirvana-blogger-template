@@ -218,7 +218,7 @@ height:32px
                     <span class='icon-bar'/>
                     <span class='icon-bar'/>
                   </a>
-                  <a class='brand' href='/'>
+                  <a class='navbar-brand' href='/'>
                     <strong>deekshith.in</strong>
                   </a>
                   <div class='nav-collapse collapse navbar-inverse-collapse'>
