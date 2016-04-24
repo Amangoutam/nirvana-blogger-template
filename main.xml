@@ -1493,7 +1493,9 @@ head.appendChild(script);
       By <a href='https://twitter.com/adeekshith'><i class="fa fa-twitter fa-fw" aria-hidden="true"/> @adeekshith</a>
     </div>
     <div class='pull-right'>
-      ⚡️ <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>, <a href='https://github.com/adeekshith/nirvana-blogger-template' rel='nofollow' title='Blogger'>Nirvana</a>
+      <small>
+        ⚡️ <a class='text-muted' href='https://github.com/adeekshith/nirvana-blogger-template' rel='nofollow' title='Nirvana Blogger Template'>Nirvana</a> , <a class='text-muted' href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
+      </small>
     </div>
   </div>
 </footer>
