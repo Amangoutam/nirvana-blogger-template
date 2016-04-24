@@ -199,68 +199,75 @@ width:32px;
 height:32px
 }
 .post-header{padding:10px 0;}
+
+body { padding-top: 70px; } /* Body Padding to compensate for navbar-fixed-top */
+
 ]]></b:skin>
 
-<!-- Loading Bootstrap 2.2.1 CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet" integrity="sha256-bWbLY+WTVRVCnczvjqXCmCGyfcKQHKioRTKW1WB+y54= sha512-FLiZmTh2haC9E+Vuprmw3RruGZH0HmPn3rJJyQKym7RFx6kiZKgnVuYJDM12mbJ6zutGR679qV0UAkbnGjIfvQ==" crossorigin="anonymous" />
+<!-- Loading Bootstrap 3.3.6 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"></link>
 
 <!-- Favicon. This works but it is recommended to change favicon in blogger.
 <link href='http://2.bp.blogspot.com/-b9JorJ0mcRM/To-94RtpQsI/AAAAAAAACWY/iAlb6syGo0M/s1600/pg_icon.png' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
 -->
 </head>
 <body>
-  <div class='container'> 
-<div class='navbar' style='position: static;'>
-              <div class='navbar-inner'>
-                <div class='container'>
-                  <a class='btn btn-navbar' data-target='.navbar-inverse-collapse' data-toggle='collapse'>
-                    <span class='icon-bar'/>
-                    <span class='icon-bar'/>
-                    <span class='icon-bar'/>
-                  </a>
-                  <a class='brand' href='/'>
-                    <strong>deekshith.in</strong>
-                  </a>
-                  <div class='nav-collapse collapse navbar-inverse-collapse'>
-                    <ul class='nav'>
-                      <li><a href='/' rel='tooltip'>Home</a></li>
-                      <li><a href='/p/contact.html'>Contact</a></li>
-                    </ul>
-                    <form action='/search' class='navbar-search pull-left'>
-                      <input class='search-query span2' name='q' placeholder='Search' type='text'/>
-                    </form>
-                    <div class='nav pull-right'>
-                        <a href='https://twitter.com/adeekshith'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x' style='color:#1DA1F2;'/>
-                                <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                        <a href='https://github.com/adeekshith/'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x' style='color:#333333;'/>
-                                <i class='fa fa-github fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                        <a href='https://www.linkedin.com/in/adeekshith' style='color:#0677B5;'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x'/>
-                                <i class='fa fa-linkedin fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                        <a href='https://www.facebook.com/adeekshith'>
-                            <span class='fa-stack fa-sm'>
-                                <i class='fa fa-circle fa-stack-2x' style='color:#3A5795'/>
-                                <i class='fa fa-facebook fa-stack-1x fa-inverse'/>
-                            </span>
-                        </a>
-                    </div>
-                  </div><!-- /.nav-collapse -->
-                </div>
-              </div><!-- /navbar-inner -->
-            </div> 
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://deekshith.in/">
+                deekshith.in
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="http://www.deekshith.in/">Home</a></li>
+                <li><a href="http://www.deekshith.in/p/contact.html">Contact</a></li>
+            </ul>
+            <form action='/search' class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input class='form-control' name='q' placeholder='Search' type='text'/>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <div class="nav navbar-nav navbar-right inline">
+                <a href='https://twitter.com/adeekshith'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x' style='color:#1DA1F2;'/>
+                        <i class='fa fa-twitter fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+
+                <a href='https://github.com/adeekshith/'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x' style='color:#333333;'/>
+                        <i class='fa fa-github fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+
+                <a href='https://www.linkedin.com/in/adeekshith' style='color:#0677B5;'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x'/>
+                        <i class='fa fa-linkedin fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+
+                <a href='https://www.facebook.com/adeekshith'>
+                    <span class='fa-stack fa-sm'>
+                        <i class='fa fa-circle fa-stack-2x' style='color:#3A5795'/>
+                        <i class='fa fa-facebook fa-stack-1x fa-inverse'/>
+                    </span>
+                </a>
+            </div>
+        </div><!--/.nav-collapse -->
     </div>
- 
+</div>
+
 <!--end top-page-menu-->
 <!-- Top ad section. Enable if required.
 <header id='mainhead'> 
@@ -275,7 +282,7 @@ height:32px
  
 <div class='container' id='container'> 
 <div class='row'> 
-<div class='span8 clearfix'> 
+<div class='col-md-8 clearfix'> 
 
 <b:section class='main' id='main' showaddelement='no'>
    <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
@@ -812,17 +819,17 @@ height:32px
   <div class='blog-pager' id='blog-pager'>
     <b:if cond='data:newerPageUrl'>
       <span id='blog-pager-newer-link'>
-      <a class='blog-pager-newer-link btn' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      <a class='blog-pager-newer-link btn btn-default' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
       </span>
     </b:if>
 
     <b:if cond='data:olderPageUrl'>
       <span id='blog-pager-older-link'>
-      <a class='blog-pager-older-link btn' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      <a class='blog-pager-older-link btn btn-default' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
       </span>
     </b:if>
 
-    <a class='home-link btn' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    <a class='home-link btn btn-default' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
 
     <b:if cond='data:mobileLinkUrl'>
       <div class='blog-mobile-link'>
@@ -915,7 +922,7 @@ height:32px
 </b:if>
 
     <b:if cond='data:post.hasJumpLink'>
-      <div class='jump-link btn'>
+      <div class='jump-link btn btn-default'>
         <a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
       </div>
     </b:if>
@@ -927,7 +934,7 @@ height:32px
         <b:if cond='data:post.emailPostUrl'>
           <span class='item-action'>
           <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
-              <img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+              <img alt='' class='glyphicon glyphicon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
           </a>
           </span>
         </b:if>
@@ -942,7 +949,7 @@ height:32px
   <b:if cond='data:post.editUrl'>
     <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+        <img alt='' class='glyphicon glyphicon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
       </a>
     </span>
   </b:if>
@@ -1213,7 +1220,7 @@ height:32px
 <!-- END Content --> 
 
 
-<div class='span4'> 
+<div class='col-md-4'> 
 <div class='sidebox'> 
 <b:section class='sidebar' id='sidebar' preferred='yes'>
    <b:widget id='HTML2' locked='false' title='Join our Email List' type='HTML'>
@@ -1457,26 +1464,28 @@ head.appendChild(script);
 <div id='footer'> 
 <div class='container'>
 <div class='row'>
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar1' preferred='yes'/>
 </div>
 
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar2' preferred='yes'/>
 </div>
 
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar3' preferred='yes'/>
 </div>
 
-<div class='span3'>
+<div class='col-md-3'>
 <b:section class='lowerbar' id='lowerbar4' preferred='yes'/>
 </div>
 </div>
  
 </div> 
-<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=1.7.2' type='text/javascript'/>
-<script src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js'/>
+<!-- Load JQuery 2.2.2-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!-- Load Bootstrap 3.3.6 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </div><!-- END Footer --> 
 <footer>
   <div class="container">
