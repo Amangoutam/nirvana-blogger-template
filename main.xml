@@ -1490,7 +1490,7 @@ head.appendChild(script);
 <footer>
   <div class="container">
     <div class='pull-left'>
-      With ❤ by <a expr:href='data:blog.homepageUrl'>Deekshith</a>.
+      By <a href='https://twitter.com/adeekshith'><i class="fa fa-twitter fa-fw" aria-hidden="true"/> @adeekshith</a>
     </div>
     <div class='pull-right'>
       ⚡️ <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>, <a href='https://github.com/adeekshith/nirvana-blogger-template' rel='nofollow' title='Blogger'>Nirvana</a>
