@@ -215,7 +215,7 @@ body { padding-top: 70px; } /* Body Padding to compensate for navbar-fixed-top *
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="http://deekshith.in/">
+            <a class="navbar-brand" expr:href='data:blog.homepageUrl'>
                 deekshith.in
             </a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -226,8 +226,8 @@ body { padding-top: 70px; } /* Body Padding to compensate for navbar-fixed-top *
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="http://www.deekshith.in/">Home</a></li>
-                <li><a href="http://www.deekshith.in/p/contact.html">Contact</a></li>
+                <li><a expr:href='data:blog.homepageUrl'>Home</a></li>
+                <li><a expr:href='data:blog.canonicalHomepageUrl + "p/contact.html"'>Contact</a></li>
             </ul>
             <form action='/search' class="navbar-form navbar-left" role="search">
               <div class="form-group">
@@ -1490,10 +1490,12 @@ head.appendChild(script);
 <footer>
   <div class="container">
     <div class='pull-left'>
-      With ❤ by <a expr:href='data:blog.homepageUrl'>Deekshith</a>.
+      By <a href='https://twitter.com/adeekshith'><i class="fa fa-twitter fa-fw" aria-hidden="true"/> @adeekshith</a>
     </div>
     <div class='pull-right'>
-      Powered by <a href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a> and <a href='https://github.com/adeekshith/nirvana-blogger-template' rel='nofollow' title='Blogger'>Nirvana</a>
+      <small>
+        ⚡️ <a class='text-muted' href='https://github.com/adeekshith/nirvana-blogger-template' rel='nofollow' title='Nirvana Blogger Template'>Nirvana</a> , <a class='text-muted' href='https://www.blogger.com/' rel='nofollow' title='Blogger'>Blogger</a>
+      </small>
     </div>
   </div>
 </footer>
